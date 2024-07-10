@@ -1,3 +1,68 @@
-#heading {
-    color: brown;
+.logo {
+    width: 130px;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+}
+
+.nav-items > ul > li {
+    list-style-type: none;
+    font-size: 24px;
+    margin: 12px;
+}
+
+.nav-items > ul {
+    display: flex;
+}
+
+.nav-items {
+    padding: 15px 40px;
+}
+
+.res-logo > img {
+    width: 100%;
+}
+
+.res-card {
+  padding: 8px;
+  width: 230px;
+  margin: 5px;
+}
+
+.res-card:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.filter {
+    display: flex;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 200px;
+    height: 400px;
+    margin: 10px;
+    background-color: #f0f0f0;
+}
+
+.account-status {
+    padding: 8px 6px;
+    cursor: pointer;
+    margin-top: -4px;
 }
